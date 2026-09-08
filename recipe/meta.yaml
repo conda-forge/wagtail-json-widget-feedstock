@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/cursive-works/wagtail-json-widget/archive/{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wagtail_json_widget-{{ version }}.tar.gz
   sha256: 2d80976cc7d9d0754b06a0779ff10ad76b89b38570f597b2231cb1ea61a9359c 
 
 build:
